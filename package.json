@@ -4,7 +4,8 @@
   "description": "",
   "main": "build/index.js",
   "scripts": {
-    "start": "webpack-dev-server --hot"
+    "start": "webpack-dev-server --hot", 
+    "build": "webpack -p"
   },
   "author": "Ilan Gold",
   "license": "MIT",

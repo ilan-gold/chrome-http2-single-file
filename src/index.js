@@ -12,9 +12,9 @@ async function main() {
         })
       );
     }
+    await Promise.all(requests);
+    await setTimeout(() => {}, 1000);
   }
-  await Promise.all(requests)
-  await setTimeout(() => { }, 1000)
 }
 
 main();
